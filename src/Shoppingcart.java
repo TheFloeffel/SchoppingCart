@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Shoppingcart {
 
     public int number;
-    public ArrayList<iBuyable> content = new ArrayList<iBuyable>();
+    public ArrayList<iBuyable> content = new ArrayList<>();
 
     public void sum() {
         double total = 0;
